@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "HRAI",
+    "slug": "ailab-hrai",
+    "privacy": "public",
+    "jsEngine": "jsc",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.1.9",
+    "orientation": "portrait",
+    "icon": "./assets/aicheckin/facial_icon.png",
+    "splash": {
+      "image": "./assets/aicheckin/facial_onboarding.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ailab.hrai",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC1wNeNM5usBCSU0FPZWw-NRj2lRMzm1sg"
+        },
+        "infoPlist": {
+          "NSCameraUsageDescription": "Your app uses the device camera",
+          "NSPhotoLibraryUsageDescription": "This app uses the camera to scan barcodes on event tickets.",
+          "NSPhotoLibraryAddUsageDescription": "Your app adds photos to the user's photo library",
+          "NSLocationAlwaysUsageDescription": "Your app uses location services all the time"
+        }
+    },
+    "description": "HRAI, based on AI Laboratory. Coded by AiLab",
+    "extra": {
+      "eas": {
+        "projectId": "ec8a686d-7b26-43fe-ae63-a414ce69ac5a"
+      }
+    },
+    "android": {
+      "package": "com.ailab.hrai",
+      "versionCode": 7,
+      "permissions": ["android.permission.CAMERA"]
+    }
+  }
+}

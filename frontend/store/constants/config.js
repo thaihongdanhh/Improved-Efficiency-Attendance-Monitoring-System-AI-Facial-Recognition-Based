@@ -1,0 +1,1 @@
+export const SERVER = "https://edu.ailab.vn/mobileapi";
