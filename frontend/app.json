@@ -25,9 +25,6 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ailab.hrai",
-      "config": {
-        "googleMapsApiKey": "AIzaSyC1wNeNM5usBCSU0FPZWw-NRj2lRMzm1sg"
-        },
         "infoPlist": {
           "NSCameraUsageDescription": "Your app uses the device camera",
           "NSPhotoLibraryUsageDescription": "This app uses the camera to scan barcodes on event tickets.",
